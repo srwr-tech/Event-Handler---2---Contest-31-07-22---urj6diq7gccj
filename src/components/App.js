@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div id="main">
       <button id="button-a"onClick={(event)=>{handleClick(event)}}>Button A</button>
-      <button id="button-b" onClick=>{(event)=>{handleClick(event)}}>Button B</button>
+      <button id="button-b" onClick={(event)=>{handleClick(event)}}>Button B</button>
     </div>
   )
 }
